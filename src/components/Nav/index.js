@@ -1,19 +1,23 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
     return (
         <header>
-                <h1>Eric Walker</h1>
+            <h1>Eric Walker</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#about-me">About Me</a>
+                        <a href="#about-me" onClick={() => setContactSelected(false)}>About Me</a>
                     </li>
                     <li>
                         <a href="#work">Work</a>
                     </li>
-                    <li>
-                        <a href="#contact-info">Contact</a>
+                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                        <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                     <li>
                         <a href="./assets/resume.pdf" download>Resume</a>
