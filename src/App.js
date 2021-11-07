@@ -8,9 +8,18 @@ function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
 
+  const [categories] = useState([
+    { name: 'projects', description: 'Projects completed as part of the U of U coding bootcamp' }
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   return (
     <div>
-      <Nav 
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       />
@@ -18,7 +27,7 @@ function App() {
         {!contactSelected ? (
         <>
         <About />
-        <Projects />
+        <Projects currentCategory={currentCategory} />
         </>
         ) : (
         <Contact />
