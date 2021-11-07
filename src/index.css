@@ -133,40 +133,40 @@ header a {
 }
 
 .project-1 {
-  background-image: url("./assets/images/run-buddy.jpg");
+  background-image: url("./assets/images/projects/0.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-2 {
-  background-image: url("./assets/images/game-stork.jpg");
+  background-image: url("./assets/images/projects/1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-3 {
-  background-image: url("./assets/images/dnd.jpg");
+  background-image: url("./assets/images/projects/2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-4 {
-  background-image: url("./assets/images/taskinator.jpg");
+  background-image: url("./assets/images/projects/3.jpg");
   background-size: cover;
   background-position: center;
 }
 
-/* .project-5 {
-  background-image: url("./assets/images/.jpg");
+.project-5 {
+  background-image: url("./assets/images/projects/4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-6 {
-  background-image: url("./assets/images/.jpg");
+  background-image: url("./assets/images/projects/5.jpg");
   background-size: cover;
   background-position: center;
-} */
+}
 
 .avatar {
   color: var(--secondary-color);
