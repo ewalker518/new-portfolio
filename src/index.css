@@ -63,7 +63,7 @@ header a {
 }
 
 .hero {
-  background-image: url("./images/light-gray.jpg");
+  /* background-image: url("./images/light-gray.jpg"); */
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -133,28 +133,40 @@ header a {
 }
 
 .project-1 {
-  background-image: url("./images/run-buddy.jpg");
+  background-image: url("./assets/images/run-buddy.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-2 {
-  background-image: url("./images/game-stork.jpg");
+  background-image: url("./assets/images/game-stork.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-3 {
-  background-image: url("./images/dnd.jpg");
+  background-image: url("./assets/images/dnd.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .project-4 {
-  background-image: url("./images/taskinator.jpg");
+  background-image: url("./assets/images/taskinator.jpg");
   background-size: cover;
   background-position: center;
 }
+
+/* .project-5 {
+  background-image: url("./assets/images/.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.project-6 {
+  background-image: url("./assets/images/.jpg");
+  background-size: cover;
+  background-position: center;
+} */
 
 .avatar {
   color: var(--secondary-color);
