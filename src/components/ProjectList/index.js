@@ -5,6 +5,9 @@ const ProjectList = ({ category }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [currentPhoto, setCurrentPhoto] = useState();
 
+    // 'projects' is the only category at the moment while all of my work so far is limited to classwork
+    // The functionality has been put in place to add other categories as time goes on
+
     const [photos] = useState([
         {
             name: 'Run Buddy',

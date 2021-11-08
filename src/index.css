@@ -15,6 +15,8 @@ body {
   background-image: url("./assets/images/light-gray.jpg");
   background-color: var(--primary-color);
   background-blend-mode: screen;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -244,6 +246,14 @@ textarea {
 	font-weight: 600;
 	margin-bottom: 30px;
 	padding: 10px 15px;	
+}
+
+footer h4 {
+  font-size: 18px;
+  padding: 20px 35px;
+  color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* media queries */

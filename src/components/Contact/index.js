@@ -53,6 +53,7 @@ const Contact = () => {
                     </li>
                 </ul>
             </div>
+            {/* Form isn't functional yet, will be added in future development */}
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
