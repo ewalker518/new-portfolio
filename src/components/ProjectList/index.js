@@ -12,32 +12,44 @@ const ProjectList = ({ category }) => {
         {
             name: 'Run Buddy',
             category: 'projects',
-            description: 'Run Buddy'
+            description: 'A website that offers fitness training services',
+            githubLink: 'https://github.com/ewalker518/run-buddy',
+            deployLink: 'https://ewalker518.github.io/run-buddy/'
         },
         {
             name: 'Game Stork',
             category: 'projects',
-            description: 'Game Stork'
+            description: 'An ongoing project that will allow users to fill out a questionnaire about their video game preferences and recommend games based on their input. Voted most stylish and attractive!',
+            githubLink: 'https://github.com/ewalker518/game-stork',
+            deployLink: 'https://ewalker518.github.io/game-stork/'
         },
         {
             name: 'DND Manager',
             category: 'projects',
-            description: 'DND Manager'
+            description: 'An ongoing project for Dungeon Masters to organize digital copies of their character sheets for all campaigns that they’re managing',
+            githubLink: 'https://github.com/dylanshoemaker/dnd-manager',
+            deployLink: 'https://dnd-character-sheet-manager.herokuapp.com/'
         },
         {
             name: 'Taskinator',
             category: 'projects',
-            description: 'Taskinator'
+            description: 'An application for managing tasks. Users can create tasks, assign categories to the tasks, keep track of the status of each task, and edit or remove tasks.',
+            githubLink: 'https://github.com/ewalker518/taskinator',
+            deployLink: 'https://ewalker518.github.io/taskinator/'
         },
         {
             name: 'Oh Snap',
             category: 'projects',
-            description: 'Oh Snap'
+            description: 'A portfolio designed for a mock client to introduce React',
+            githubLink: 'https://github.com/ewalker518/photo-port',
+            deployLink: 'https://ewalker518.github.io/photo-port/'
         },
         {
             name: 'Budget Tracker',
             category: 'projects',
-            description: 'Budget Tracker'
+            description: 'An application for tracking income and expenditures. ***Not currently deployed, but it will be up soon!***',
+            githubLink: 'https://github.com/ewalker518/budget-tracker',
+            deployLink: 'https://cheese.com'
         }
     ]);
 

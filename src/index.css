@@ -150,6 +150,14 @@ header a {
 	width: 960px;
 }
 
+.modalContainer a {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--tertiary-color);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .modalTitle {
 	font-size: 22px;
 	font-weight: 600;
