@@ -12,7 +12,9 @@
 
 body {
   font-family: Tahoma, Helvetica, sans-serif;
-  background-color: var(--tertiary-color);
+  background-image: url("./assets/images/light-gray.jpg");
+  background-color: var(--primary-color);
+  background-blend-mode: screen;
 }
 
 header {
@@ -72,13 +74,6 @@ header a {
   color: var(--tertiary-color);
 }
 
-.hero {
-  /* background-image: url("./images/light-gray.jpg"); */
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-}
-
 .section-title {
   font-size: 36px;
   display: flex;
@@ -116,24 +111,7 @@ header a {
   text-align: left;
   justify-content: flex-end;
   padding: 0 20px 0 20px;
-}
-
-.work {
-  display: flex;
-  margin: 20px 20px 20px 20px;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.work h2 {
-  margin: 10px 10px 10px 10px;
-  justify-content: flex-start;
-}
-
-.projects {
-  display: flex;
-  margin: auto;
-  flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .project {
@@ -142,55 +120,12 @@ header a {
   justify-content: space-around;
 }
 
-.project-1 {
-  background-image: url("./assets/images/small/projects/0.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.project-2 {
-  background-image: url("./assets/images/small/projects/1.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.project-3 {
-  background-image: url("./assets/images/small/projects/2.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.project-4 {
-  background-image: url("./assets/images/small/projects/3.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.project-5 {
-  background-image: url("./assets/images/small/projects/4.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.project-6 {
-  background-image: url("./assets/images/small/projects/5.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.avatar {
+.projects {
+  display: flex;
   color: var(--secondary-color);
-  width: 355px;
-  height: 205px;
-  align-items: center;
-}
-
-.avatar a {
-  color: var(--secondary-color);
-  text-decoration: none;
-  font-size: 1vw;
+  text-align: left;
   font-weight: bold;
-  padding: 5px;
+  padding: 0 18px 0 15px;
 }
 
 .modalBackdrop {
@@ -214,16 +149,25 @@ header a {
 }
 
 .modalTitle {
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 600;
 	margin-bottom: 25px;
+  color: var(--tertiary-color);
+}
+
+.modalText {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--tertiary-color);
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 button {
 	background: var(--primary);
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: var(--tertiary-color);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -231,10 +175,17 @@ button {
 	padding: 10px 15px;	
 }
 
-img {
+.img-thumbnail {
   max-width: 100%;
   width: 350px;
   height: 200px;
+  padding: 10px 15px;
+}
+
+.img-modal {
+  max-width: 100%;
+  width: 950px;
+  height: 550px;
 }
 
 span[role="img"] {
@@ -267,6 +218,32 @@ span[role="img"] {
 .contact ul li a {
   text-decoration: none;
   color: var(--secondary-color);
+}
+
+form {
+  width: 40%;
+  color: var(--secondary-color);
+  justify-content: space-around;
+  
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.contact-submit {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: var(--secondary-color);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
 }
 
 /* media queries */

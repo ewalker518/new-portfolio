@@ -71,7 +71,7 @@ const Contact = () => {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button className="contact-submit" type="submit">Submit</button>
             </form>
         </section>
     )
