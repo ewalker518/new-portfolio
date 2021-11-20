@@ -50,6 +50,20 @@ const ProjectList = ({ category }) => {
             description: 'An application for tracking income and expenditures. ***Not currently deployed, but it will be up soon!***',
             githubLink: 'https://github.com/ewalker518/budget-tracker',
             deployLink: 'https://cheese.com'
+        },
+        {
+            name: 'Budget Tracker',
+            category: 'projects',
+            description: 'An ongoing project that uses JavaScript and jQuery to manage and categorize tasks',
+            githubLink: 'https://github.com/ewalker518/taskmaster-pro',
+            deployLink: 'https://ewalker518.github.io/taskmaster-pro/'
+        },
+        {
+            name: 'SalonMe',
+            category: 'projects',
+            description: 'A React application that uses the full MERN stack and functions as a website for a fictional beauty salon',
+            githubLink: 'https://github.com/dylanshoemaker/SalonMe',
+            deployLink: 'https://salonme.herokuapp.com/'
         }
     ]);
 
