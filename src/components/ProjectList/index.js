@@ -61,7 +61,7 @@ const ProjectList = ({ category }) => {
         {
             name: 'SalonMe',
             category: 'projects',
-            description: 'A React application that uses the full MERN stack and functions as a website for a fictional beauty salon',
+            description: 'A React application that uses the full MERN stack and functions as a website for a fictional beauty salon. Clients are able to create appointments, view salon quality products sorted by category, keep track of the products in their cart, and pay for them using Stripe. Users can also view photos of previous work that the salon has done as well as view an about section of the individual stylists that work at the salon',
             githubLink: 'https://github.com/dylanshoemaker/SalonMe',
             deployLink: 'https://salonme.herokuapp.com/'
         }
