@@ -12,7 +12,6 @@ function Nav(props) {
 
     return (
         <header>
-            <h1>Eric Walker</h1>
             <nav>
                 <ul>
                     <li>
@@ -34,7 +33,7 @@ function Nav(props) {
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                     <li>
-                        <a href="../../src/assets/resume.pdf" download>Resume</a>
+                        <a href="../../src/assets/Resume.pdf" download>Resume</a>
                     </li>
                 </ul>
             </nav>

@@ -33,9 +33,9 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact-info" class="contact">
+        <section id="contact-info" className="contact">
             <div>
-                <h2 class="section-title primary-border">Contact</h2>
+                <h2>Contact Information</h2>
             </div>
             <div>
                 <ul>
@@ -54,7 +54,7 @@ const Contact = () => {
                 </ul>
             </div>
             {/* Form isn't functional yet, will be added in future development */}
-            <form id="contact-form" onSubmit={handleSubmit}>
+            {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
@@ -73,7 +73,7 @@ const Contact = () => {
                     </div>
                 )}
                 <button className="contact-submit" type="submit">Submit</button>
-            </form>
+            </form> */}
         </section>
     )
 }
