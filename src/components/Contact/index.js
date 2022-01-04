@@ -33,8 +33,8 @@ const Contact = () => {
     }
 
     return (
-        <section id="contact-info" className="contact">
-            <div>
+        <div id="contact-info" class="contact">
+            <div class="contact-title">
                 <h2>Contact Information</h2>
             </div>
             <div>
@@ -74,7 +74,7 @@ const Contact = () => {
                 )}
                 <button className="contact-submit" type="submit">Submit</button>
             </form> */}
-        </section>
+        </div>
     )
 }
 

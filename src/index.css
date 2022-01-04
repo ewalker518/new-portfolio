@@ -18,6 +18,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -193,19 +195,15 @@ span[role="img"] {
 }
 
 .contact {
-  margin: 20px 20px 20px 20px;
-  justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25px;
+  text-align: center;
 }
 
-.contact h2 {
-  align-items: center;
+.contact-title {
   margin: 10px 10px 10px 10px;
-  font-size: 36px;
-  display: flex;
+  font-size: 30px;
   padding: 20px 20px 20px 20px;
-  width: 200px;
+  width: auto;
   height: auto;
   color: var(--secondary-color);
 }
@@ -214,26 +212,21 @@ span[role="img"] {
   font-size: 1.05vw;
   font-weight: lighter;
   padding: 5px 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   list-style: none;
   width: 100%;
-  justify-content: space-between;
   color: var(--secondary-color);
 }
 
 .contact ul li a {
   text-decoration: none;
-  align-items: center;
   color: var(--secondary-color);
 }
 
 form {
+  margin-top: auto;
   width: 40%;
   color: var(--secondary-color);
   justify-content: space-around;
-  
 }
 
 textarea {
@@ -257,7 +250,7 @@ textarea {
 
 footer {
   font-size: 18px;
-  height: 150px;
+  height: 50px;
   padding: 20px 35px;
   color: var(--secondary-color);
   display: flex;
