@@ -6,6 +6,9 @@ A portfolio showcasing some of the work that I've done as part of the coding boo
 
 ![image](https://user-images.githubusercontent.com/84742628/141659475-0871bd52-2886-43b7-b1ee-735cc8b7566c.png)
 
+## Usage
+[Link to deployed application](https://ewalker518.github.io/new-portfolio/)
+
 -----
 
 GitHub: [ewalker518](https://github.com/ewalker518/)
