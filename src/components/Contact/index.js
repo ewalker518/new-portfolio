@@ -46,7 +46,7 @@ const Contact = () => {
                         <a href="mailto:ewalkertbone@gmail.com">ewalkertbone@gmail.com</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/eric-walker-380344213/">Linkdin</a>
+                        <a href="https://www.linkedin.com/in/eric-walker-380344213/">Linkedin</a>
                     </li>
                     <li>
                         <a href="https://github.com/ewalker518">Github</a>
