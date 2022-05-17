@@ -122,6 +122,13 @@ header a {
   padding: 0 18px 0 15px;
 }
 
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
 .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
 	bottom: 0;
